@@ -206,9 +206,9 @@ header {
   margin: auto;
   width: 100%;
   padding: 60px 0;
-  background: #fe7154;
+  background: #fe7154 url(../images/header-bg.png) repeat center center;
   text-align: left;
-  border-bottom: 8px solid #fe4721;
+  border-bottom: 8px solid #d22501;
 }
 header h1 {
   font-size: 5.1em;
