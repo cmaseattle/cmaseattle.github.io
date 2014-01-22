@@ -303,10 +303,12 @@ header .date {
   line-height: 1.4em;
 }
 .highlight {
+  margin-bottom: 20px;
+  font-size: .9em;
+  padding: 10px;
+  background-color: #fff;
+  overflow: auto;
   font-family: "Lucida Console", Monaco, monospace;
-  background-color: none;
-  margin-left: 15px;
-  padding-left: 15px;
   border-left: 5px solid #fe9b87;
   /* Comment */
   /* Error */
