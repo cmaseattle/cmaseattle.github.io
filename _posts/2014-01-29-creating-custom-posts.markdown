@@ -8,11 +8,11 @@ Many projects we work on require much more than basic wordpress core settings. T
 
 ###Post Power
 
-The power of Wordpress Posts extend far beyond updates and blogging. In fact, the phrasing "post" is very misleading. Thinking of these posts as "items" is much more descriptive of their nature. Wordpress allows you to create [custom post types](http://codex.wordpress.org/Post_Types) for whatever items you may be thinking. For instance, say you are creating a website that has "sponsors" but you don't want to add these sponsors manually in HTML, but would rather create sponsor items in the admin section without having to define categories to posts. Wordpres custom posts are perfect for this.
+The power of Wordpress Posts extend far beyond updates and blogging. In fact, the phrasing "post" is very misleading. Thinking of these posts as "items" is much more descriptive of their nature. Wordpress allows you to create [custom post types](http://codex.wordpress.org/Post_Types) for whatever items you may be thinking. For instance, say you are creating a website that has "sponsors" but you don't want to add these sponsors manually in HTML, but would rather create sponsor items in the admin section without having to define categories to posts. Wordpress custom posts are perfect for this.
 
 ![Screenshot of Sponsors post type in Wordpress Admin screen](/images/posts/wordpress-custom-post-sponsors.png)
 
-In order to build this functionality into wordpress, you'll have to edit your **functions.php** file to register this post type. One thing to note is that you can register a post with very different functionality than what you're used to. You have posts that don't have featured images, don't allow for categories, and only have a title. These options are quite extensive, so please look at the [codex function reference for post_type_supports();](http://codex.wordpress.org/Function_Reference/post_type_supports).
+In order to build this functionality into wordpress, you'll have to edit your **functions.php** file to register this post type. One thing to note is that you can register a post with very different functionality than what you're used to. You have posts that don't have featured images, don't allow for categories, and only have a title. There are many options for creating post types, so please look at the [codex function reference for post_type_supports();](http://codex.wordpress.org/Function_Reference/post_type_supports).
 
 {% highlight php %}
 <?php
