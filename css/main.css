@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 /* Initial Imports */
-/* your mixins */
 /* your variables */
 /* colors */
 /* margins */
@@ -174,14 +173,26 @@ body {
 }
 /* Style Sections */
 nav {
-  display: block;
+  position: fixed;
   width: 100%;
   text-align: left;
-  background: #e5e5e5;
-  border-top: 8px solid #dddddd;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.8s;
+  -moz-transition: 0.8s;
+  -ms-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+nav:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+nav img {
+  padding-left: 30px;
+  float: left;
 }
 nav ul {
   display: block;
+  float: left;
   padding: 15px 0 18px 30px;
 }
 nav ul li {
@@ -194,7 +205,7 @@ nav ul li:last-child {
 nav ul li a {
   font-size: .8em;
   letter-spacing: .1em;
-  color: #555555;
+  color: #f2f2f2;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -205,7 +216,7 @@ header {
   display: block;
   margin: auto;
   width: 100%;
-  padding: 60px 0;
+  padding: 80px 0 60px 0;
   background: #fe7154 url(../images/header-bg.png) repeat center center;
   text-align: left;
   border-bottom: 8px solid #d22501;
