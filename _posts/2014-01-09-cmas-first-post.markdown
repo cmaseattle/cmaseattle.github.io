@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CMA's Post"
+tags: 'general'
 ---
 
 This is our first post. Waka! Let's test apostrophes!

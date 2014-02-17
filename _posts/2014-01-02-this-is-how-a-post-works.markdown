@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The anatomy of a post"
+tags: 'general'
 ---
 
 A post in jekyll is written in Markdown syntax, which makes for easy writing since you do not have to look at HTML. All posts have a structured file format that gives files an order based on date.

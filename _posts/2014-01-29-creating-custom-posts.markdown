@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Custom Post Types"
-cateogory: wordpress
+tags: ['wordpress']
 ---
 
 Many projects we work on require much more than basic wordpress core settings. That being said, it's easy to reach for plugins before even digging into what more advanced wordpress core functions could help do the same thing. One of the more important wordpress capabilities allows developers to create different post types. These become very important when you start adding content via posts that aren't necessarily part of the blog roll.
