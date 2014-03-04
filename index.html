@@ -12,6 +12,17 @@ weight: 1
 	</div>
 </header>
 
+<section id="recent">
+	<div class="container">
+		<h2>Recent Posts</h2>
+			<div id="recent-posts">
+			{% for post in site.posts %}
+			<h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a><span>{{ post.date | date_to_string }}</span></h1>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
 <section id="content">
 	<div class="container">
 		{% for post in site.posts %}

@@ -355,6 +355,50 @@ header .tags {
 .cf {
   *zoom: 1;
 }
+#recent {
+  padding: 20px 0;
+}
+#recent .container {
+  background-color: #e5e5e5;
+  padding: 10px;
+}
+#recent h2 {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.3em;
+  color: #fe4721;
+  margin: 0 0 0 -20px;
+  padding: 5px 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px 1px #999;
+  width: auto;
+  float: left;
+  display: block;
+  clear: both;
+}
+#recent #recent-posts {
+  margin-top: 45px;
+}
+#recent #recent-posts h1 {
+  display: block;
+  margin-bottom: 1.2em;
+}
+#recent #recent-posts h1 a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.15em;
+  color: #555555;
+  padding-left: 8px;
+  border-left: 2px solid #e5e5e5;
+}
+#recent #recent-posts h1 a:hover {
+  border-left: 2px solid #fe4721;
+}
+#recent #recent-posts h1 span {
+  margin-left: 10px;
+  font-size: .8em;
+  display: inline-block;
+}
 .highlight {
   margin-bottom: 20px;
   font-size: .9em;
