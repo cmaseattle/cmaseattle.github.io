@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>{{ site.name }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-	<title>{{ site.name }}</title>
+	{% for css in page.extra_css %}
+	<link rel="stylesheet" href="{{site.baseurl}}/css/posts/{{ css }}">
+	{% endfor %}
 
 	<script src="js/jquery.js"></script>
 	<!-- Google Analytics -->

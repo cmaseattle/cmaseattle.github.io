@@ -279,7 +279,7 @@ header .tags {
   margin-bottom: 20px;
   line-height: 1.6em;
 }
-#content p strong {
+#content strong {
   font-weight: 700;
 }
 #content h2 {
@@ -343,6 +343,31 @@ header .tags {
   padding: 3px;
   color: #333 !important;
   margin: 0 5px;
+}
+#content table {
+  color: #555555;
+  font-size: .9em;
+  border-collapse: collapse;
+  border: 1px solid #dddddd;
+}
+#content table tr {
+  border: 1px solid #dddddd;
+}
+#content table tr th {
+  padding: 10px;
+  font-weight: 900;
+  background-color: #e5e5e5;
+}
+#content table tr td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+  vertical-align: middle;
+}
+#content .example {
+  width: 100%;
+  background-color: #fff;
+  border-top: 5px solid #c2c2ff;
+  padding: 10px 0;
 }
 .cf:before,
 .cf:after {
