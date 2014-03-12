@@ -125,3 +125,7 @@ You can set your keyframe percentages to anything you want and use as many as yo
 	100% { border-radius:0%; background-color:#c0c0c0;}
 }
 {% endhighlight %}
+
+###Compatibility
+
+![Browser Compatibility](/images/posts/css3-animations-compatibility.png)

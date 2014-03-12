@@ -424,6 +424,19 @@ header .tags {
   font-size: .8em;
   display: inline-block;
 }
+#categories {
+  text-align: center;
+}
+#categories .category {
+  float: left;
+  width: 23%;
+  margin-right: 10px;
+  background-color: #c0c0c0;
+  padding: 20px 0;
+}
+#categories .category:last-child {
+  margin-right: 0;
+}
 .highlight {
   margin-bottom: 20px;
   font-size: .9em;
