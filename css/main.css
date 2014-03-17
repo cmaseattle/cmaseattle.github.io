@@ -367,7 +367,11 @@ header .tags {
   width: 100%;
   background-color: #fff;
   border-top: 5px solid #c2c2ff;
-  padding: 10px 0;
+  padding: 15px 15px 20px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin-bottom: 20px;
 }
 .cf:before,
 .cf:after {
