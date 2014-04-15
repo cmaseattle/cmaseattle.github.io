@@ -4,7 +4,7 @@ title: "Creating Shortcodes"
 tags: 'wordpress'
 ---
 
-[Wordpress shortcodes](http://codex.wordpress.org/Function_Reference/add_shortcode) are handy bits of code that you can reuse across your website. They are particularly powerful because of a user's ability to use a shortcode within post or page content. Instead of relying on processing specific PHP in page templates, you can build shortcodes to process that PHP within your content and HTML, providing you an extra degree of freedom for unique content placement.
+WordPress shortcodes are handy bits of code that you can reuse across your website. They are particularly powerful because of a user's ability to [use a shortcode](http://codex.wordpress.org/Function_Reference/add_shortcode) within post or page content. Instead of relying on processing specific PHP in page templates, you can build shortcodes to process that PHP within your content and HTML, providing you an extra degree of freedom for unique content placement.
 
 Many plugins come with shortcodes, allowing you to place the plugin content anywhere you wish on the site. They allow you to run general functions and even give you the ability to add different variables to interact with the functions differently.
 

@@ -3,8 +3,7 @@
 
 {% include head.html %}
 
-<header>
-	<div class="container">
+	<header>
 		<h1>{{ page.title }}</h1>
 		<p class="date">{{ page.date | date_to_string }}</p>
 		<ul class="tags">
@@ -12,13 +11,10 @@
 			<li>{{ tag }}</li>
 			{% endfor %}
 		</ul>
-	</div>
-</header>
+	</header>
 
-<section id="content">
-	<div class="container">
+	<section class="content">
 		{{ content }}
-	</div>
-</section>
+	</section>
 
 {% include footer.html %}

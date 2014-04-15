@@ -168,12 +168,14 @@ body {
   font-family: 'Open Sans', arial, sans-serif;
 }
 .container {
-  display: block;
-  margin: auto;
-  max-width: 650px;
+  padding: 60px 10px 0;
+  max-width: 700px;
 }
 @media only screen and (max-width: 599px) {
   .container {
+    display: block;
+    margin: auto;
+    padding: 60px 0 0;
     width: 95%;
   }
 }
@@ -182,15 +184,8 @@ nav {
   position: fixed;
   width: 100%;
   text-align: left;
-  background: rgba(0, 0, 0, 0.2);
-  -webkit-transition: 0.8s;
-  -moz-transition: 0.8s;
-  -ms-transition: 0.8s;
-  -o-transition: 0.8s;
-  transition: 0.8s;
-}
-nav:hover {
-  background: rgba(0, 0, 0, 0.8);
+  background: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
 }
 nav img {
   padding-left: 30px;
@@ -211,7 +206,7 @@ nav ul li:last-child {
 nav ul li a {
   font-size: .8em;
   letter-spacing: .1em;
-  color: #f2f2f2;
+  color: #555555;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -221,15 +216,11 @@ nav ul li a:hover {
 header {
   display: block;
   margin: auto;
-  width: 100%;
-  padding: 80px 0 60px 0;
-  background: url(../images/header-bg.png) repeat center center;
   text-align: left;
-  border-bottom: 8px solid #d22501;
 }
 header h1 {
-  font-size: 4em;
-  color: #f2f2f2;
+  font-size: 2em;
+  color: #555555;
   font-weight: 700;
   line-height: .9em;
 }
@@ -243,46 +234,42 @@ header .tags {
   display: none;
 }
 @media only screen and (max-width: 599px) {
-  header {
-    padding: 60px 0 30px;
-  }
   header h1 {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 }
-#content {
-  padding: 10px 10px;
+.content {
   margin: 20px 0 50px;
 }
-#content h2 a,
-#content h3 a,
-#content h4 a,
-#content blockquote a,
-#content ol li a,
-#content ul li a,
-#content p a {
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content blockquote a,
+.content ol li a,
+.content ul li a,
+.content p a {
   color: #6666ff;
   text-decoration: none;
 }
-#content h2 a:hover,
-#content h3 a:hover,
-#content h4 a:hover,
-#content blockquote a:hover,
-#content ol li a:hover,
-#content ul li a:hover,
-#content p a:hover {
+.content h2 a:hover,
+.content h3 a:hover,
+.content h4 a:hover,
+.content blockquote a:hover,
+.content ol li a:hover,
+.content ul li a:hover,
+.content p a:hover {
   text-decoration: underline;
 }
-#content p {
+.content p {
   font-weight: 400;
   color: #555555;
   margin-bottom: 20px;
   line-height: 1.6em;
 }
-#content strong {
+.content strong {
   font-weight: 700;
 }
-#content h2 {
+.content h2 {
   font-size: 2.3em;
   margin: 30px 0 20px;
   padding: 0 0 10px 0;
@@ -290,24 +277,24 @@ header .tags {
   color: #555555;
   border-bottom: 1px solid #e5e5e5;
 }
-#content h2 a {
+.content h2 a {
   color: #555555;
 }
-#content h3 {
+.content h3 {
   font-size: 1.5em;
   font-weight: 600;
   letter-spacing: 0em;
   color: #6f6f6f;
   margin: 20px 0 10px;
 }
-#content h4 {
+.content h4 {
   font-size: 1.4em;
   font-weight: 300;
   font-style: italic;
   color: #7b7b7b;
   margin: 20px 0 10px;
 }
-#content blockquote {
+.content blockquote {
   margin: 0 0 20px 30px;
   padding-left: 10px;
   border-left: 3px solid #ff6666;
@@ -317,53 +304,53 @@ header .tags {
   color: #555555;
   line-height: 1.4em;
 }
-#content ol {
+.content ol {
   list-style-type: decimal;
 }
-#content ul {
+.content ul {
   list-style-type: disc;
 }
-#content ol,
-#content ul {
+.content ol,
+.content ul {
   margin: 0 0 20px 50px;
 }
-#content ol li,
-#content ul li {
+.content ol li,
+.content ul li {
   font-weight: 400;
   color: #555555;
   line-height: 1.4em;
 }
-#content img {
+.content img {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-#content .inlined {
+.content .inlined {
   display: inline;
   padding: 3px;
   color: #333 !important;
   margin: 0 5px;
 }
-#content table {
+.content table {
   color: #555555;
   font-size: .9em;
   border-collapse: collapse;
   border: 1px solid #dddddd;
 }
-#content table tr {
+.content table tr {
   border: 1px solid #dddddd;
 }
-#content table tr th {
+.content table tr th {
   padding: 10px;
   font-weight: 900;
   background-color: #e5e5e5;
 }
-#content table tr td {
+.content table tr td {
   border: 1px solid #dddddd;
   padding: 10px;
   vertical-align: middle;
 }
-#content .example {
+.content .example {
   width: 100%;
   background-color: #fff;
   border-top: 5px solid #c2c2ff;
@@ -385,48 +372,46 @@ header .tags {
   *zoom: 1;
 }
 #recent {
-  padding: 20px 0;
+  margin: 20px 0;
 }
-#recent .container {
-  background-color: #e5e5e5;
-  padding: 10px;
+#recent .post {
+  display: block;
+  margin-bottom: 20px;
 }
-#recent h2 {
-  font-weight: 700;
+#recent .post .post-title {
   text-decoration: none;
   font-size: 1.3em;
-  color: #fe4721;
-  margin: 0 0 0 -20px;
-  padding: 5px 10px;
+  font-weight: 600;
+  display: block;
+  padding: 10px 7px;
+  background-color: #fe866d;
+  color: #f2f2f2;
+  overflow: hidden;
+}
+#recent .post .post-title .arrow {
+  padding-left: 15px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+#recent .post .post-title .post-date {
+  float: right;
+  font-size: .65em;
+}
+#recent .post .post-title:hover {
+  background-color: #fe5c3a;
+}
+#recent .post .post-title:hover .arrow {
+  padding-left: 30px;
+}
+#recent .post p {
+  padding: 10px 7px;
   background-color: #fff;
-  box-shadow: 2px 2px 2px 1px #999;
-  width: auto;
-  float: left;
-  display: block;
-  clear: both;
-}
-#recent #recent-posts {
-  margin-top: 45px;
-}
-#recent #recent-posts h1 {
-  display: block;
-  margin-bottom: 1.2em;
-}
-#recent #recent-posts h1 a {
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1.15em;
   color: #555555;
-  padding-left: 8px;
-  border-left: 2px solid #e5e5e5;
-}
-#recent #recent-posts h1 a:hover {
-  border-left: 2px solid #fe4721;
-}
-#recent #recent-posts h1 span {
-  margin-left: 10px;
-  font-size: .8em;
-  display: inline-block;
+  line-height: 1.3em;
+  font-size: .9em;
 }
 #categories {
   text-align: center;
@@ -712,9 +697,7 @@ header .tags {
 }
 footer {
   display: block;
-  background: #dddddd;
   padding: 20px 0;
-  border-bottom: 8px solid #d6d6d6;
 }
 footer p {
   color: #555555;
