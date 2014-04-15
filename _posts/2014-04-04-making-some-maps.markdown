@@ -47,6 +47,22 @@ You can easily add a marker to the map with the 'featureLayer' action, which pro
 
 <div id="map2">&nbsp;</div>
 
+{% highlight javascript %}
+L.mapbox.featureLayer({
+    type: 'Feature',
+    geometry: {
+        type: 'Point',
+        coordinates: [-93.2667, 44.9833]
+    },
+    properties: {
+        title: 'Minneapolis, MN',
+        description: 'The history and economic growth of Minneapolis are tied to water, the city\'s defining physical characteristic, which was brought to the region during the last ice age ten thousand years ago.',
+        'marker-size': 'large',
+        'marker-color': '#222'
+    }
+}).addTo(map);
+{% endhighlight %}
+
 There are many ways to incorporate a map into your website. We urge you to consider trying out something beyond the standard Google embeds, to support geographic innovation, and incorporate all aspects of your website's functionality into your design.
 
 You can create an account for free at mapbox.com and start customizing the basemap you need. They even have built-in tools to help you with your data and other needs, so you can even avoid using javascript for you
