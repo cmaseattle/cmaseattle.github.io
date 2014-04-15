@@ -6,8 +6,8 @@ weight: 1
 {% include head.html %}
 
 <header>
-		<h1>{{ site.name }}</h1>
-		{{ site.description }}
+	<h1>{{ site.name }}</h1>
+	<p class="description">{{ site.description }}</p>
 </header>
 
 <section id="recent">
@@ -16,7 +16,6 @@ weight: 1
 		<div class="post">
 			<a href="{{ site.base_url }}{{ post.url }}" class="post-title">{{ post.title }}<span class="arrow">&#10095; &#10095; &#10095;</span><span class="post-date">{{ post.date | date_to_string }}</span></a>
 			{{ post.excerpt }}
-			<p><a href="{{ site.base_url }}{{ post.url }}">Read More</a></p>
 		</div>
 		{% endfor %}
 	</ul>
