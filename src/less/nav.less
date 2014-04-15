@@ -1,0 +1,33 @@
+nav {
+	position:fixed;
+	width:100%;
+	text-align:left;
+	background:@c_white;
+	border-bottom:1px solid @c_grey_light;
+	img {
+		padding-left:30px;
+		float:left;
+	}
+	ul {
+		display:block;
+		float:left;
+		padding:15px 0 18px @margin_medium;
+		li {
+			display:inline-block;
+			margin-right:20px;
+			&:last-child {
+				margin-right:0;
+			}
+			a {
+				font-size:.8em;
+				letter-spacing:.1em;
+				color:@c_black;
+				text-transform:uppercase;
+				text-decoration:none;
+				&:hover {
+					opacity:0.8;
+				}
+			}
+		}
+	}
+}

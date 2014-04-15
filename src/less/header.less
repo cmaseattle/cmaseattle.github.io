@@ -1,0 +1,28 @@
+header {
+	display:block;
+	margin:auto;
+	text-align:left;
+	h1 {
+		font-size:2em;
+		color:@c_black;
+		font-weight:700;
+		line-height:.9em;
+	}
+	.date {
+		font-size:.9em;
+		text-transform:uppercase;
+		color:#000;
+		margin:@margin_tiny 0 0 0;
+	}
+	.tags {
+		display:none;
+	}
+}
+
+@media only screen and (max-width : 599px) {
+	header { 
+		h1 {
+			font-size:1.5em;
+		}
+	}
+}

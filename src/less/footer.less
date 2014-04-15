@@ -1,0 +1,56 @@
+footer {
+	display:block;
+	padding:@margin_small 0;
+	p {
+		color:@c_black;
+		margin-bottom:@margin_tiny;
+		font-size:.8em;
+	}
+	#footer-content {
+		float:left;
+		overflow:hidden;
+	}
+	#social-icons {
+		float:right;
+		overflow:hidden;
+		margin-top:20px;
+		li {
+			display:inline;
+			margin-left:4px;
+			a {
+				img {
+					-webkit-transition-duration: 0.4s;
+					-moz-transition-duration: 0.4s;
+					transition-duration: 0.4s;
+					opacity:0.5;
+					&:hover {
+						opacity:0.8;
+						transform: rotate(360deg);
+						-ms-transform: rotate(360deg); /* IE 9 */
+						-webkit-transform: rotate(360deg); /* Safari and Chrome */
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width : 599px) {
+	footer { 
+		#footer-content {
+			display:block;
+			float:none;
+			text-align:center;
+		}
+		#social-icons {
+			display:block;
+			float:none;
+			text-align:center;
+		}
+		* {
+			text-align:center;
+		}
+
+	}
+}
+
