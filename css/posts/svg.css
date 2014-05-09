@@ -1,0 +1,118 @@
+#circle {
+	fill:#4682b4;
+}
+#triangle {
+	fill:#b44682;
+}
+#square {
+	fill:#82b446;
+}
+
+#circle1 {
+	-webkit-animation: circleColor 2s linear infinite;
+	-moz-animation: circleColor 2s linear infinite;
+	-o-animation: circleColor 2s linear infinite;
+	animation: circleColor 2s linear infinite;
+}
+#triangle1 {
+	fill:#b44682;
+	-webkit-animation: rotate 2s linear infinite;
+	-moz-animation: rotate 2s linear infinite;
+	-o-animation: rotate 2s linear infinite;
+	animation: rotate 2s linear infinite;
+	transform-origin:50% 57%;
+	-ms-transform-origin:50% 57%;
+	-webkit-transform-origin:50% 57%;
+}
+#square1 {
+	fill:#82b446;
+	-webkit-animation: skewSquare 2s linear infinite;
+	-moz-animation: skewSquare 2s linear infinite;
+	-o-animation: skewSquare 2s linear infinite;
+	animation: skewSquare 2s linear infinite;
+	transform-origin:50% 57%;
+	-ms-transform-origin:50% 57%;
+	-webkit-transform-origin:50% 57%;
+}
+
+@-webkit-keyframes circleColor {
+	0%, 100% { fill:#4682b4; }
+	25% { fill:#82b446; }
+	75% { fill:#b44682; }
+}
+@-moz-keyframes circleColor {
+	0%, 100% { fill:#4682b4; }
+	25% { fill:#82b446; }
+	75% { fill:#b44682; }
+}
+@-o-keyframes circleColor {
+	0%, 100% { fill:#4682b4; }
+	25% { fill:#82b446; }
+	75% { fill:#b44682; }
+}
+@keyframes circleColor {
+	0%, 100% { fill:#4682b4; }
+	25% { fill:#82b446; }
+	75% { fill:#b44682; }
+}
+
+@-webkit-keyframes rotate {
+	from{ -webkit-transform: rotate(0deg); }
+    to{ -webkit-transform: rotate(360deg); }
+}
+@-moz-keyframes rotate {
+	from{ -moz-transform: rotate(0deg); }
+    to{ -moz-transform: rotate(360deg); }
+}
+@-o-keyframes rotate {
+	from{ -o-transform: rotate(0deg); }
+    to{ -o-transform: rotate(360deg); }
+}
+@keyframes rotate {
+	from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+
+@-webkit-keyframes skewSquare {
+	from{ -webkit-transform: skew(0deg, 0deg); }
+    to{ -webkit-transform: skew(0deg, -360deg); }
+}
+@-moz-keyframes skewSquare {
+	from{ -moz-transform: skew(0deg, 0deg); }
+    to{ -moz-transform: skew(0deg, -360deg); }
+}
+@-o-keyframes skewSquare {
+	from{ -o-transform: skew(0deg, 0deg); }
+    to{ -o-transform: skew(0deg, -360deg); }
+}
+@keyframes skewSquare {
+	from{ transform: skew(0deg, 0deg); }
+    to{ transform: skew(0deg, -360deg); }
+}
+
+.cma-letter {
+	-webkit-animation: skewLetter 4s ease infinite;
+	-moz-animation: skewLetter 4s ease infinite;
+	-o-animation: skewLetter 4s ease infinite;
+	animation: skewLetter 4s ease infinite;
+	transform-origin:50% 57%;
+	-ms-transform-origin:50% 57%;
+	-webkit-transform-origin:50% 57%;
+}
+
+@-webkit-keyframes skewLetter {
+	from{ -webkit-transform: skew(0deg, 0deg); }
+    to{ -webkit-transform: skew(360deg, 360deg); }
+}
+@-moz-keyframes skewLetter {
+	from{ -moz-transform: skew(0deg, 0deg); }
+    to{ -moz-transform: skew(360deg, 360deg); }
+}
+@-o-keyframes skewLetter {
+	from{ -o-transform: skew(0deg, 0deg); }
+    to{ -o-transform: skew(360deg, 360deg); }
+}
+@keyframes skewLetter {
+	from{ transform: skew(0deg, 0deg); }
+    to{ transform: skew(360deg, 360deg); }
+}
