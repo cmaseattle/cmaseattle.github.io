@@ -14,7 +14,7 @@ weight: 1
 	<h2>Recent Posts</h2>
 		{% for post in site.posts %}
 		<div class="post">
-			<a href="{{ site.base_url }}{{ post.url }}" class="post-title">{{ post.title }}<span class="arrow">&#10095; &#10095; &#10095;</span><span class="post-date">{{ post.date | date_to_string }}</span></a>
+			<a href="{{ site.base_url }}{{ post.url }}" class="post-title">{{ post.title }}<span class="arrow">&#10095; &#10095; &#10095;</span><span class="post-date">{{ page.date | date: '%B %d, %Y' }}</span></a>
 			{{ post.excerpt }}
 		</div>
 		{% endfor %}
