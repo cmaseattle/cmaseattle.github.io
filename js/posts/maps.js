@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	// first map - nothing else
-	var map1 = L.mapbox.map('map1', 'cmaseattle.i04nl3im')
+	var map1 = L.mapbox.map('map1', 'examples.map-i86nkdio')
     	.setView([47.6097, -122.3331], 9);
 
     // second map with marker
-    var map2 = L.mapbox.map('map2', 'cmaseattle.i04o304o')
+    var map2 = L.mapbox.map('map2', 'examples.map-h67hf2ic')
     	.setView([44.9833, -93.2667], 14);
     L.mapbox.featureLayer({
 	    type: 'Feature',
