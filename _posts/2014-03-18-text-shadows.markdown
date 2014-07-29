@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Text Shadows"
-tags: "css"
+category: 'css'
 extra_css: 'text-shadows.css'
 ---
 

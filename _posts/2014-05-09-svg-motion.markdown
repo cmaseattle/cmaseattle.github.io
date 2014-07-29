@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SVG & CSS"
-tags: ['css', 'svg']
+category: 'design'
 extra_css: 'svg.css'
 ---
 

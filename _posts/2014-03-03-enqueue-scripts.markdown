@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Enqueue Scripts"
-tags: ['wordpress', 'javascript']
+category: 'wordpress'
 ---
 
 Wordpress can get a bit confusing when it comes to adding scripts to your page. Whether it's your custom javascript file or a library, it's likely that you'll have scripts that are dependent on others, which requires you to load them in the correct order. When you start adding plugins to your site, this can add a whole new dimension to dependencies.

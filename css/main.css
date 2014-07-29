@@ -377,6 +377,68 @@ header .tags {
   color: #555555;
   margin: 10px 0;
 }
+#categories {
+  list-style-type: none;
+}
+#categories li {
+  display: inline-block;
+  margin: 10px;
+  padding: 7px;
+  text-transform: uppercase;
+  font-size: .7em;
+  font-weight: 100;
+  color: #333;
+  border: 1px solid #c0c0c0;
+}
+#categories li:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #c0c0c0;
+}
+#categories li.active {
+  background-color: #c0c0c0;
+  color: #fff;
+}
+#categories li.wordpress {
+  border: 1px solid #A6242F;
+}
+#categories li.wordpress:hover {
+  background-color: #A6242F;
+}
+#categories li.wordpress.active {
+  background-color: #A6242F;
+  color: #fff;
+}
+#categories li.css {
+  border: 1px solid #0367A6;
+}
+#categories li.css:hover {
+  background-color: #0367A6;
+}
+#categories li.css.active {
+  background-color: #0367A6;
+  color: #fff;
+}
+#categories li.javascript {
+  border: 1px solid #F2BC57;
+}
+#categories li.javascript:hover {
+  background-color: #F2BC57;
+}
+#categories li.javascript.active {
+  background-color: #F2BC57;
+  color: #fff;
+}
+#categories li.design {
+  border: 1px solid #71C6D9;
+}
+#categories li.design:hover {
+  background-color: #71C6D9;
+}
+#categories li.design.active {
+  background-color: #71C6D9;
+  color: #fff;
+}
 #recent {
   margin: 20px 0;
   -moz-column-count: 3;
@@ -397,9 +459,11 @@ header .tags {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   color: #555555;
+  border-top: 2px solid #c0c0c0;
+  /* categories */
 }
 #recent .post:hover {
-  background-color: #555555;
+  background-color: #c0c0c0;
   color: #fff;
 }
 #recent .post h2 {
@@ -410,6 +474,30 @@ header .tags {
 #recent .post p {
   line-height: 1.3em;
   font-size: .8em;
+}
+#recent .post.wordpress {
+  border-top: 2px solid #A6242F;
+}
+#recent .post.wordpress:hover {
+  background-color: #A6242F;
+}
+#recent .post.css {
+  border-top: 2px solid #0367A6;
+}
+#recent .post.css:hover {
+  background-color: #0367A6;
+}
+#recent .post.javascript {
+  border-top: 2px solid #F2BC57;
+}
+#recent .post.javascript:hover {
+  background-color: #F2BC57;
+}
+#recent .post.design {
+  border-top: 2px solid #71C6D9;
+}
+#recent .post.design:hover {
+  background-color: #71C6D9;
 }
 #categories {
   text-align: center;

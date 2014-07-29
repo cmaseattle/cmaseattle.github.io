@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CSS3 Animations"
-tags: "css"
+category: 'css'
 extra_css: 'css-animations.css'
 ---
 

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Let's Make a Map"
-tags: ['maps', 'javascript']
-extra_css: 'maps.css'
-extra_js: 'maps.js'
+category: 'javascript'
+extra_css:
+  - maps.css
+extra_js:
+  - maps.js
 ---
 
 Every once in a while we'll find the need for a nice looking map. Since our websites each have their own unique look it's nice to have a map that fits the style. Google map embeds can get redundant ... so we look to Mapbox.

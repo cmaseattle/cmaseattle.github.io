@@ -2,7 +2,7 @@
 layout: post
 title: "Instagram Grid Library"
 subtitle: "CMA's very own JavaScript library for accessing the Instagram API"
-tags: 'wordpress'
+category: 'javascript'
 extra_css:
   - instagram-grid.min.css
   - instagram.css

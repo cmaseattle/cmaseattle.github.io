@@ -10,32 +10,20 @@ weight: 1
 	<p class="description">{{ site.description }}</p>
 </header>
 
+<ul id="categories">
+	<li class="all active">all</li>
+	<li class="css">css</li>
+	<li class="wordpress">wordpress</li>
+	<li class="javascript">javascript</li>
+	<li class="design">design</li>
+</ul>
+
 <section id="recent">
 	{% for post in site.posts %}
-	<a href="{{ post.url }}"><div class="post">
+	<a href="{{ post.url }}"><div class="post {{ post.category }}">
 		<h2>{{ post.title }}</h2>
 		<p>{{ post.excerpt | strip_html }}</p>
 	</div></a>
-	{% endfor %}
-</section>
-
-<section id="categories" style="display:none;">
-	{% for tag in site.tags %}
-	<div class="category {{ tag[0] }}">
-		<h2>{{ tag[0] }}</h2>
-		<p>Total: {{ tag.size }}</p>
-	</div>
-	{% endfor %}
-	<div class="cf"><div>
-</section>
-
-<section id="content" style="display:none;">
-	{% for post in site.posts limit:1 %}
-	<article>
-		<h2><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h2>
-		<p>{{ post.date | date_to_string }}</p>
-		<p>{{ post.content }}</p>
-	</article>
 	{% endfor %}
 </section>
 
