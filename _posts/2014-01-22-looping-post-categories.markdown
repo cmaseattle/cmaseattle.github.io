@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Categorical Loops"
+subtitle: "Using the standard WordPress Query to loop through specific categories."
 category: 'wordpress'
 ---
 

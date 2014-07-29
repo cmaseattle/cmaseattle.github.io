@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Let's Make a Map"
+subtitle: "Simple and yet effective web maps using the Leaflet & Mapbox libraries."
 category: 'javascript'
 extra_css:
   - maps.css

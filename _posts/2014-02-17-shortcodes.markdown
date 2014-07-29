@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Creating Shortcodes"
+subtitle: "Building helper functions that can be used directly in the content editor."
 category: 'wordpress'
 ---
 

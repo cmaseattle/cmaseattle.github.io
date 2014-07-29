@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Enqueue Scripts"
+subtitle: "Ensuring your scripts and stylesheets are loaded in the appropriate order."
 category: 'wordpress'
 ---
 

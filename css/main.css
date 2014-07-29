@@ -188,6 +188,7 @@ nav {
   text-align: left;
   background: #f2f2f2;
   border-bottom: 1px solid #e5e5e5;
+  z-index: 1000;
 }
 nav img {
   padding-left: 30px;
@@ -225,15 +226,24 @@ header h1 {
   color: #555555;
   font-weight: 700;
   line-height: .9em;
+  margin-bottom: 15px;
 }
 header .date {
   font-size: .9em;
   text-transform: uppercase;
   color: #000;
   margin: 10px 0 0 0;
+  color: #c0c0c0;
 }
 header .tags {
   display: none;
+}
+header .subtitle {
+  font-weight: 100;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  max-width: 500px;
+  margin: auto;
 }
 @media only screen and (max-width: 599px) {
   header h1 {
@@ -242,6 +252,9 @@ header .tags {
 }
 .content {
   margin: 20px 0 50px;
+  text-align: justify;
+  padding: 20px;
+  background-color: #fff;
 }
 .content h2 a,
 .content h3 a,
@@ -373,9 +386,15 @@ header .tags {
 .cf {
   *zoom: 1;
 }
+header {
+  text-align: center;
+}
 .description {
   color: #555555;
   margin: 10px 0;
+  line-height: 1.4em;
+  font-size: 1.2em;
+  font-weight: 100;
 }
 #categories {
   list-style-type: none;

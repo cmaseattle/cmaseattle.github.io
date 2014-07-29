@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CMA's Post"
+subtitle: "Subtitles will go here."
 category: 'general'
 ---
 

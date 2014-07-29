@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS3 Animations"
+subtitle: "Bringing motion to the web."
 category: 'css'
 extra_css: 'css-animations.css'
 ---

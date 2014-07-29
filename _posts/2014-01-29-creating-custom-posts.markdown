@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Custom Post Types"
+subtitle: "Extending the functionality and power of the WordPress content management system."
 category: 'wordpress'
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "The anatomy of a post"
+subtitle: "Everything about a Jekyll post."
 category: 'general'
 ---
 

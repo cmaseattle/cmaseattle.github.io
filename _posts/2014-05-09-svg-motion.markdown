@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SVG & CSS"
+subtitle: "Lossless imagery and graphics directly on your website."
 category: 'design'
 extra_css: 'svg.css'
 ---

@@ -15,7 +15,7 @@ Instagram is a huge part of our social media department's work, and therefore ma
 
 Instagram's API is ultimately quite accessible, but sometimes they make things a bit more complicated than what developers and their websites require. Most, if not all of the API documentation is written from an "Application" or "GET and POST" perspective, which require significant authentication protocols for data retrieval and posting. But we find ourselves in need of one thing with our websites usually, and that is to retreive images from the client's Instagram account and simply show them on their website.
 
-Surprisingly, this is rather difficult in the eyes of how simple "GET" processes can be. The setup is for another conversaion, but please [read a quick article](https://github.com/svmatthews/instagram-access-token-generation) on how to retrieve the simple *Client ID* for running Instagram Grid.
+Surprisingly, this is rather difficult in the eyes of how simple "GET" processes can be. The setup is for another conversation, but please [read a quick article](https://github.com/svmatthews/instagram-access-token-generation) on how to retrieve the simple *Client ID* for running Instagram Grid.
 
 <div id="instagram-one"></div>
 

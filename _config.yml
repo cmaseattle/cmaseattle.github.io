@@ -1,5 +1,5 @@
 name: CMA Tech Blog
-description: Web-related news and how-to's from Creative Media Alliance. Built with LESS on Jekyll and Github Pages.
+
 baseurl:
 
 # site runs locally at localhost:4000 when you run `jekyll serve --watch`
