@@ -379,51 +379,37 @@ header .tags {
 }
 #recent {
   margin: 20px 0;
-}
-#recent h2 {
-  font-size: 1.2em;
-  font-weight: 600;
-  color: #555555;
-  margin-bottom: 5px;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
+  column-count: 3;
+  column-gap: 10px;
+  width: 100%;
 }
 #recent .post {
-  display: block;
-  margin-bottom: 20px;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #555555;
 }
-#recent .post .post-title {
-  text-decoration: none;
-  font-size: 1.3em;
-  font-weight: 600;
-  display: block;
-  padding: 10px 7px;
-  background-color: #fe866d;
-  color: #f2f2f2;
-  overflow: hidden;
+#recent .post:hover {
+  background-color: #555555;
+  color: #fff;
 }
-#recent .post .post-title .arrow {
-  padding-left: 15px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-#recent .post .post-title .post-date {
-  float: right;
-  font-size: .65em;
-}
-#recent .post .post-title:hover {
-  background-color: #fe5c3a;
-}
-#recent .post .post-title:hover .arrow {
-  padding-left: 30px;
+#recent .post h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 #recent .post p {
-  padding: 10px 7px;
-  background-color: #fff;
-  color: #555555;
   line-height: 1.3em;
-  font-size: .9em;
+  font-size: .8em;
 }
 #categories {
   text-align: center;

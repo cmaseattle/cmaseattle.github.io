@@ -11,14 +11,12 @@ weight: 1
 </header>
 
 <section id="recent">
-	<h2>Recent Posts</h2>
-		{% for post in site.posts %}
-		<div class="post">
-			<a href="{{ site.base_url }}{{ post.url }}" class="post-title">{{ post.title }}<span class="arrow">&#10095; &#10095; &#10095;</span><span class="post-date">{{ page.date | date: '%B %d, %Y' }}</span></a>
-			{{ post.excerpt }}
-		</div>
-		{% endfor %}
-	</ul>
+	{% for post in site.posts %}
+	<a href="{{ post.url }}"><div class="post">
+		<h2>{{ post.title }}</h2>
+		<p>{{ post.excerpt | strip_html }}</p>
+	</div></a>
+	{% endfor %}
 </section>
 
 <section id="categories" style="display:none;">
